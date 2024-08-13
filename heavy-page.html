@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavy Page - KrakenBoost Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .large-image { width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <h1>Heavy Page for Testing</h1>
+    <p>This page intentionally has performance issues.</p>
+    <img src="https://via.placeholder.com/2000x1500" alt="Large image" class="large-image">
+    <script>
+        // Simulate a heavy script
+        for (let i = 0; i < 1000000; i++) {
+            console.log('Heavy operation');
+        }
+    </script>
+</body>
+</html>
